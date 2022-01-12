@@ -1,10 +1,48 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/*------------------
+ Head
+ ---------------------- */
+ .head{
+     display: flex;
+     justify-content: space-between;
+    background-color: rgba(16, 82, 204, 0.657);
+    
+ }
+ .header-icon{
+     margin-left: 30%;
+     display: flex;
+ }
+ .idea{
+     color: white;
+     margin-left: 10px;
+ }
+ .header-icon img{
+     margin-top: 7px;
+     height: 50px;
+     width: 30px;
+ }
+ .header-profile{
+     margin-right: 10%;
+     align-items: center;
+ }
+ .header-profile a{
+     text-decoration: none;
+     color: white;
+     margin: 10px;
+ }
+ .header-profile img{
+     width: 50px;
+     height: 40px;
+     margin-top: 10px;
+ }
+
 /* Common style */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    
 }
 main{
     display: flex;
